@@ -1,0 +1,10 @@
+<resources>
+
+	<string name="app_name">Twidere Media Uploader Extension</string>
+	<string name="media_upload_provider">Media upload provider</string>
+	<string name="twitpic">TwitPic</string>
+	<string name="imgly">img.ly</string>
+	<string name="error_no_permission">Permissions not granted for extension</string>
+	<string name="error_provider_not_specified">Media upload provider not specified</string>
+
+</resources>

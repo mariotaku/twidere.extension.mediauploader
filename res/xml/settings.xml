@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<ListPreference
+		android:entries="@array/entries_media_upload_provider"
+		android:entryValues="@array/values_media_upload_provider"
+		android:key="media_upload_provider"
+		android:title="@string/media_upload_provider"/>
+
+</PreferenceScreen>

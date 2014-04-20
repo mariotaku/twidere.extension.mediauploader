@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="entries_media_upload_provider">
+		<item>@string/twitpic</item>
+		<item>@string/imgly</item>
+	</string-array>
+	<string-array name="values_media_upload_provider">
+		<item>twitpic</item>
+		<item>imgly</item>
+	</string-array>
+
+</resources>
