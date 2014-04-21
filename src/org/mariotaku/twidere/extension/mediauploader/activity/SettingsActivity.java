@@ -1,6 +1,7 @@
-package org.mariotaku.twidere.extension.mediauploader;
+package org.mariotaku.twidere.extension.mediauploader.activity;
 
 import org.mariotaku.twidere.Twidere;
+import org.mariotaku.twidere.extension.mediauploader.fragment.SettingsFragment;
 
 import android.app.Activity;
 import android.app.FragmentManager;

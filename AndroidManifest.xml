@@ -21,9 +21,9 @@
 			android:value="read|write|accounts"/>
 		<meta-data
 			android:name="org.mariotaku.twidere.extension.settings"
-			android:value="org.mariotaku.twidere.extension.mediauploader.SettingsActivity"/>
+			android:value="org.mariotaku.twidere.extension.mediauploader.activity.SettingsActivity"/>
 
-		<activity android:name="SettingsActivity">
+		<activity android:name=".activity.SettingsActivity">
 			<intent-filter>
 				<action android:name="org.mariotaku.twidere.EXTENSION_SETTINGS"/>
 
@@ -32,7 +32,7 @@
 		</activity>
 
 		<service
-			android:name="MediaUploaderService"
+			android:name=".service.MediaUploaderService"
 			android:permission="org.mariotaku.twidere.permission.UPLOAD_MEDIA">
 			<intent-filter>
 				<action android:name="org.mariotaku.twidere.EXTENSION_UPLOAD_MEDIA"/>

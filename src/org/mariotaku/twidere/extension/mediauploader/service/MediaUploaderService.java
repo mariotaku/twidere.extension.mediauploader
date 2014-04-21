@@ -1,4 +1,4 @@
-package org.mariotaku.twidere.extension.mediauploader;
+package org.mariotaku.twidere.extension.mediauploader.service;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -6,6 +6,9 @@ import java.util.List;
 
 import org.mariotaku.twidere.IMediaUploader;
 import org.mariotaku.twidere.Twidere;
+import org.mariotaku.twidere.extension.mediauploader.Constants;
+import org.mariotaku.twidere.extension.mediauploader.R;
+import org.mariotaku.twidere.extension.mediauploader.R.string;
 import org.mariotaku.twidere.extension.mediauploader.uploadprovider.UploaderProvider;
 import org.mariotaku.twidere.extension.mediauploader.uploadprovider.UploaderProviderFactory;
 import org.mariotaku.twidere.model.Account;

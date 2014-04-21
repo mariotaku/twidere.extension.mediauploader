@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
 
-	<ListPreference
+	<org.mariotaku.twidere.extension.mediauploader.preference.SummaryListPreference
 		android:entries="@array/entries_media_upload_provider"
 		android:entryValues="@array/values_media_upload_provider"
 		android:key="media_upload_provider"
 		android:title="@string/media_upload_provider"/>
+
+	<org.mariotaku.twidere.extension.mediauploader.preference.ValueDependencyPreferenceCategory
+		android:key="category_imgur"
+		android:title="@string/imgur"
+		app:dependencyKey="media_upload_provider"
+		app:dependencyValues="imgur">
+	</org.mariotaku.twidere.extension.mediauploader.preference.ValueDependencyPreferenceCategory>
 
 </PreferenceScreen>

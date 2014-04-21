@@ -4,10 +4,12 @@
 	<string-array name="entries_media_upload_provider">
 		<item>@string/twitpic</item>
 		<item>@string/imgly</item>
+		<item>@string/imgur</item>
 	</string-array>
 	<string-array name="values_media_upload_provider">
 		<item>twitpic</item>
 		<item>imgly</item>
+		<item>imgur</item>
 	</string-array>
 
 </resources>
